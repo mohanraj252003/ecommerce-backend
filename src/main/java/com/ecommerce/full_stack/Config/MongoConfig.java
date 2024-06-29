@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class MongoConfig {
 
-    @Value("${spring.data.mongodb.uri}")
+    @Value("${mongodb://mongo:USYCIyiyKkvOnhoDyjjKRGaJqiFoqjGe@viaduct.proxy.rlwy.net:36810/ecom}")
     private String mongoUri;
 
     @Bean
